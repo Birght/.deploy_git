@@ -5,13 +5,17 @@
   
 
   
-  <title>Archives: 2022 | Hexo</title>
+  <title>js原生选择器 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="https://birght.github.io/archives/2022/index.html">
+  <meta name="description" content="一、原生JS选择器#     JS选择器常用的有getElementById()、getElementsByName()、getElementsByTagName()、getElementsByClassName()、querySelector()、querySelectorAll()  A： getElementById(ID): 返回对指定ID的第一个对象的引用，如果在文档中查找一个">
+<meta property="og:type" content="article">
+<meta property="og:title" content="js原生选择器">
+<meta property="og:url" content="https://birght.github.io/2021/06/17/js%E5%8E%9F%E7%94%9F%E9%80%89%E6%8B%A9%E5%99%A8/index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="一、原生JS选择器#     JS选择器常用的有getElementById()、getElementsByName()、getElementsByTagName()、getElementsByClassName()、querySelector()、querySelectorAll()  A： getElementById(ID): 返回对指定ID的第一个对象的引用，如果在文档中查找一个">
 <meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2021-06-17T01:55:55.000Z">
+<meta property="article:modified_time" content="2021-06-18T06:00:13.858Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
   
@@ -62,59 +66,71 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main">
-  
-  
-    
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2022" class="archive-year">2022</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/2022/02/27/%E7%94%A8%E6%88%B7%E5%9C%B0%E5%9B%BE%E6%95%85%E4%BA%8B/" class="archive-article-date">
-  <time datetime="2022-02-27T14:43:51.000Z" itemprop="datePublished">Feb 27</time>
+        <section id="main"><article id="post-js原生选择器" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2021/06/17/js%E5%8E%9F%E7%94%9F%E9%80%89%E6%8B%A9%E5%99%A8/" class="article-date">
+  <time datetime="2021-06-17T01:55:55.000Z" itemprop="datePublished">2021-06-17</time>
 </a>
-      
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2022/02/27/%E7%94%A8%E6%88%B7%E5%9C%B0%E5%9B%BE%E6%95%85%E4%BA%8B/">用户地图故事</a>
+    <h1 class="article-title" itemprop="name">
+      js原生选择器
     </h1>
   
 
-    </header>
-  </div>
-</article>
-  
+      </header>
     
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/2022/02/10/%E5%9B%BE%E7%89%87%E8%BD%AC%E4%B8%BAicon%E4%BD%9C%E4%B8%BA%E5%AD%97%E4%BD%93%E6%96%87%E4%BB%B6%E4%BD%BF%E7%94%A8%E5%AE%8C%E6%95%B4%E6%94%BB%E7%95%A5/" class="archive-article-date">
-  <time datetime="2022-02-10T08:37:31.000Z" itemprop="datePublished">Feb 10</time>
-</a>
+    <div class="article-entry" itemprop="articleBody">
       
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2022/02/10/%E5%9B%BE%E7%89%87%E8%BD%AC%E4%B8%BAicon%E4%BD%9C%E4%B8%BA%E5%AD%97%E4%BD%93%E6%96%87%E4%BB%B6%E4%BD%BF%E7%94%A8%E5%AE%8C%E6%95%B4%E6%94%BB%E7%95%A5/">图片转为icon作为字体文件使用完整攻略</a>
-    </h1>
-  
+        <code>
+    一、原生JS选择器#
+    JS选择器常用的有getElementById()、getElementsByName()、getElementsByTagName()、getElementsByClassName()、querySelector()、querySelectorAll()
 
-    </header>
+<pre><code>A： getElementById(ID): 返回对指定ID的第一个对象的引用，如果在文档中查找一个特定的元素，最有效的方法是getElementById()
+B: getElementsByName(name): 返回文档中name属性为name值的元素，因为name属性值不是唯一的，所以查询到的结果有可能返回的是一个数组，而不是一个元素。
+C: getElementsByTagName(tagname): 返回文档中指定标签的元素
+D: getElementsByClassName():返回文档中所有指定类名的元素
+E: querySelector():返回文档中匹配指定css选择器的第一个元素
+F: querySelectorAll():返回文档中匹配指定css选择器的第一个元素
+</code></pre>
+</code>
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://birght.github.io/2021/06/17/js%E5%8E%9F%E7%94%9F%E9%80%89%E6%8B%A9%E5%99%A8/" data-id="cl0f91nrn00013ckreesc0xi7" class="article-share-link">Share</a>
+      
+      
+    </footer>
   </div>
-</article>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2021/06/25/%E4%BC%9A%E8%AE%AE%E5%AE%A4%E5%8D%A0%E7%94%A8%E5%9B%BE%E8%A1%A8%E6%98%BE%E7%A4%BA%E5%8D%A1/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          会议室占用图表显示卡
+        
+      </div>
+    </a>
   
   
-    </div></section>
+    <a href="/2021/06/03/vue%E6%89%93%E5%BC%80%E6%96%B0%E7%AA%97%E5%8F%A3/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">vue打开新窗口</div>
+    </a>
   
+</nav>
 
+  
+</article>
 
 </section>
         
